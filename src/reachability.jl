@@ -1,4 +1,8 @@
 include("zonotypes.jl")
+
+struct reachability
+    init::zonotype
+end
 @info "matrices"
 c=[
         1 0; 
